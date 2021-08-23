@@ -24,8 +24,10 @@ optional arguments:
 
 __txt => def__
 
-> `python python .\main.py --i="./textdb_en.txt" --o="./textdb_en.def" --d="txt2def"`
+> `python .\main.py --i="./textdb_en.txt" --o="./textdb_en.def" --d="txt2def"`
 
 __def => txt__
 
-> `python python .\main.py --i="./textdb_en.def" --o="./textdb_en.txt" --d="def2txt"`
+> `python .\main.py --i="./textdb_en.def" --o="./textdb_en.txt" --d="def2txt"`
+
+__Внимание!__ На данный момент в скрипте __жестко прописана__ кодировка файла __Windows-1251 (Кириллица)__! С файлами других кодировок скрипт __не тестировался!__
